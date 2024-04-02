@@ -1,0 +1,2 @@
+# Hourly reload of firewall configuration
+0 * * * * /root/firewall/firewall.bash &2>/dev/null
